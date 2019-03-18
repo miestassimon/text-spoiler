@@ -1,0 +1,17 @@
+{
+  "name": "text-spoiler",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist && uglifyjs dist/text-spoiler.js -o dist/text-spoiler.min.js --mangle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "uglify-js": "^3.4.10"
+  }
+}

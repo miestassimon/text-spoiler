@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text Spoiler Demo</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .page {
+      width: 1170px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .text {
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <h1>Text Spoiler Demo</h1>
+
+
+    <h2>Added an attribute <code>data-text-spoiler</code> without a value</h2>
+
+    <div class="text" data-text-spoiler="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aperiam architecto assumenda commodi, dolorum ea earum eius eveniet excepturi exercitationem itaque necessitatibus officiis quia quisquam, sed sint sit, voluptatibus?</div>
+
+  </div>
+
+  <script>
+    let dev = true;
+  </script>
+  <script src="./dist/text-spoiler.min.js"></script>
+  <script>
+    new TextSpoiler();
+  </script>
+
+</body>
+</html>
