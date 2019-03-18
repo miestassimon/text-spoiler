@@ -2,6 +2,8 @@
 
 Hides a text part with a spoiler button.
 
+__Use careful! The script needs to be tested.__
+
 ## Usage
 
 How to use this script.
