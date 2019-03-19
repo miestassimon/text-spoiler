@@ -109,7 +109,7 @@
       let lhFromStyle = window.getComputedStyle(node).lineHeight;
 
       if (lhFromStyle !== 'normal') {
-        res = lhFromStyle;
+        res = parseInt(lhFromStyle);
       } else {
         let clone = node.cloneNode();
         clone.innerHTML = '&nbsp;';
