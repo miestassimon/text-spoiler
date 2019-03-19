@@ -10,13 +10,13 @@
      */
     constructor(node, lines) {
       this.options = {
-        isCollapsed: false,
+        isCollapsed: true,
         lines: lines,
         expandedHeight: 0,
         collapsedHeight: 0,
         lineHeight: 0,
-        buttonTextExpanded: 'Читать дальше',
-        buttonTextCollapsed: 'Скрыть'
+        buttonTextExpanded: 'Скрыть',
+        buttonTextCollapsed: 'Читать дальше'
       };
 
       this.node = node;
